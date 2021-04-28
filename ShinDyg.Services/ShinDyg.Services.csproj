@@ -54,11 +54,22 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="EventService.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
     <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\ShinDyg.Data\ShinDyg.Data.csproj">
+      <Project>{f300a69e-ad0c-4749-ba29-225e20ce10e0}</Project>
+      <Name>ShinDyg.Data</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\ShinDyg.Models\ShinDyg.Models.csproj">
+      <Project>{2fd473c3-f2e5-4b8c-95d6-41270de6b993}</Project>
+      <Name>ShinDyg.Models</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
