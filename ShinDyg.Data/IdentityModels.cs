@@ -33,6 +33,8 @@ namespace ShinDyg.Data
         }
 
         public DbSet<Event> Events { get; set; }
+        public DbSet<User> EndUsers { get; set; }
+        public DbSet<Venue> Venues { get; set; }
         protected override void OnModelCreating(DbModelBuilder modelBuilder)
         {
             modelBuilder
