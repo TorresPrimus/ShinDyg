@@ -59,9 +59,9 @@
   <ItemGroup>
     <Compile Include="Event.cs" />
     <Compile Include="IdentityModels.cs" />
-    <Compile Include="Migrations\202105051721275_roleremoval.cs" />
-    <Compile Include="Migrations\202105051721275_roleremoval.designer.cs">
-      <DependentUpon>202105051721275_roleremoval.cs</DependentUpon>
+    <Compile Include="Migrations\202105052229113_pleaseWork.cs" />
+    <Compile Include="Migrations\202105052229113_pleaseWork.designer.cs">
+      <DependentUpon>202105052229113_pleaseWork.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -73,8 +73,8 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="Migrations\202105051721275_roleremoval.resx">
-      <DependentUpon>202105051721275_roleremoval.cs</DependentUpon>
+    <EmbeddedResource Include="Migrations\202105052229113_pleaseWork.resx">
+      <DependentUpon>202105052229113_pleaseWork.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
