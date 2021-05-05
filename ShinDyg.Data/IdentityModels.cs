@@ -18,6 +18,8 @@ namespace ShinDyg.Data
             // Add custom user claims here
             return userIdentity;
         }
+
+        public virtual UserInfo User { get; set; }
     }
 
     public class ApplicationRole : IdentityRole
@@ -39,7 +41,7 @@ namespace ShinDyg.Data
         }
 
         public DbSet<Event> Events { get; set; }
-        public DbSet<User> EndUsers { get; set; }
+        public DbSet<UserInfo> UserInfos { get; set; }
         public DbSet<Venue> Venues { get; set; }
         protected override void OnModelCreating(DbModelBuilder modelBuilder)
         {
